@@ -3,7 +3,7 @@
 var urlHelper = require("./UrlHelper"),
     request = require("request");
 
-var client = {};
+var  client = {};
 
 client.makeRequest = function(path, handleResponse) {
     var url = urlHelper.buildUrl(path);
